@@ -1,0 +1,27 @@
+html,body { 
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+
+.x { 
+  display:inline-block; 
+  height:100%; 
+  width: 50%; 
+  outline: none; 
+  box-sizing: border-box; 
+  padding: 20px; 
+  vertical-align: middle; 
+  transition: background-color 200ms;
+}
+
+[contenteditable] { 
+  outline: none;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  line-height: 36px;
+  margin-bottom: 10px;
+  font-size:24px;
+}
